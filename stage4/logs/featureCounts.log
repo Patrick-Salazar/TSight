@@ -1,0 +1,149 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 15 BAM files                                     ||
+||                                                                            ||
+||                           sample_021_sorted.bam                            ||
+||                           sample_022_sorted.bam                            ||
+||                           sample_031_sorted.bam                            ||
+||                           sample_032_sorted.bam                            ||
+||                           sample_051_sorted.bam                            ||
+||                           sample_052_sorted.bam                            ||
+||                           sample_061_sorted.bam                            ||
+||                           sample_062_sorted.bam                            ||
+||                           sample_071_sorted.bam                            ||
+||                           sample_072_sorted.bam                            ||
+||                           sample_082_sorted.bam                            ||
+||                           sample_091_sorted.bam                            ||
+||                           sample_092_sorted.bam                            ||
+||                           sample_101_sorted.bam                            ||
+||                           sample_102_sorted.bam                            ||
+||                                                                            ||
+||             Output file : gene_counts.txt                                  ||
+||                 Summary : gene_counts.txt.summary                          ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : genes.gtf (GTF)                                  ||
+||      Dir for temp files : /home/patrick/environments/rna_simulation_da ... ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file genes.gtf ...                                         ||
+||    Features : 1650704                                                      ||
+||    Meta-features : 63187                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file sample_021_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 486                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_022_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 486                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_031_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 202                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_032_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 202                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_051_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 672                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_052_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 672                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_061_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 833                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_062_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 833                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_071_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 372                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_072_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 372                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_082_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 180                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_091_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 644                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_092_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 644                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_101_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 370                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file sample_102_sorted.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 370                                                  ||
+||    Successfully assigned alignments : 0 (0.0%)                             ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home/patrick/environme  ||
+|| nts/rna_simulation_data/TSight/stage4/counts/gene_counts.txt.summary"      ||
+||                                                                            ||
+\\============================================================================//
+

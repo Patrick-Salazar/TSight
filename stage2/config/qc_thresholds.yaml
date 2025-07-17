@@ -1,0 +1,9 @@
+max_percent_fails: 10.0
+max_percent_duplicates: 50.0
+min_read_count: 500
+
+# study more about these!
+#min_reads_retained: 0.70
+#min_q30_percentage: 85
+#max_adapter_content: 0.10
+#max_retries: 2

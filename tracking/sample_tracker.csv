@@ -1,0 +1,19 @@
+Sample,QC_Status,Reason,Batch_File,Pipeline_Version
+sample_021,Defer,Low Read Count,d_Low_Read_Count_batch02.txt,v1.0
+sample_022,Defer,Low Read Count,d_Low_Read_Count_batch02.txt,v1.0
+sample_031,Defer,Low Read Count,d_Low_Read_Count_batch02.txt,v1.0
+sample_032,Defer,Low Read Count,d_Low_Read_Count_batch02.txt,v1.0
+sample_041,Defer,High FastQC Fails; Low Read Count,d_High_FastQC_Fails_Low_Read_Count_batch02.txt,v1.0
+sample_042,Defer,High FastQC Fails; Low Read Count,d_High_FastQC_Fails_Low_Read_Count_batch02.txt,v1.0
+sample_051,Good,,g_batch02.txt,v1.0
+sample_052,Good,,g_batch02.txt,v1.0
+sample_061,Good,,g_batch02.txt,v1.0
+sample_062,Good,,g_batch02.txt,v1.0
+sample_071,Defer,Low Read Count,d_Low_Read_Count_batch02.txt,v1.0
+sample_072,Defer,Low Read Count,d_Low_Read_Count_batch02.txt,v1.0
+sample_081,Defer,High FastQC Fails; Low Read Count,d_High_FastQC_Fails_Low_Read_Count_batch02.txt,v1.0
+sample_082,Defer,Low Read Count,d_Low_Read_Count_batch02.txt,v1.0
+sample_091,Good,,g_batch02.txt,v1.0
+sample_092,Good,,g_batch02.txt,v1.0
+sample_101,Defer,Low Read Count,d_Low_Read_Count_batch02.txt,v1.0
+sample_102,Defer,Low Read Count,d_Low_Read_Count_batch02.txt,v1.0

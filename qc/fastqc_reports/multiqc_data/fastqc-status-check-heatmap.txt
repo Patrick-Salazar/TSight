@@ -1,0 +1,19 @@
+.	Basic Statistics	Per Base Sequence Quality	Per Sequence Quality Scores	Per Base Sequence Content	Per Sequence GC Content	Per Base N Content	Sequence Length Distribution	Sequence Duplication Levels	Overrepresented Sequences	Adapter Content
+sample_021	1	1	1	1	0.5	1	1	1	0.5	1
+sample_022	1	1	1	1	0.25	1	1	1	0.5	1
+sample_031	1	1	1	0.5	0.25	1	1	1	0.5	1
+sample_032	1	1	1	0.5	0.5	1	1	1	0.5	1
+sample_041	1	1	1	0.5	0.25	1	1	1	0.25	1
+sample_042	1	1	1	0.5	0.25	1	1	1	0.25	1
+sample_051	1	1	1	1	0.5	1	1	1	0.5	1
+sample_052	1	1	1	1	0.5	1	1	1	0.5	1
+sample_061	1	1	1	1	0.25	1	1	1	0.5	1
+sample_062	1	1	1	1	0.25	1	1	1	0.5	1
+sample_071	1	1	1	1	0.25	1	1	1	0.5	1
+sample_072	1	1	1	0.5	0.5	1	1	1	0.5	1
+sample_081	1	1	1	0.5	0.25	1	1	1	0.25	1
+sample_082	1	1	1	0.5	0.5	1	1	1	0.25	1
+sample_091	1	1	1	1	0.25	1	1	1	0.5	1
+sample_092	1	1	1	1	0.25	1	1	1	0.5	1
+sample_101	1	1	1	0.5	0.5	1	1	1	0.5	1
+sample_102	1	1	1	1	0.25	1	1	1	0.5	1

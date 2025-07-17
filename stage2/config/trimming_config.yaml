@@ -1,0 +1,17 @@
+normal:
+  adapter_sequence: "AGATCGGAAGAGC"
+  cut_front: true
+  cut_tail: true
+  cut_window_size: 4
+  cut_mean_quality: 20
+  qualified_quality_phred: 20
+  min_length: 30
+
+aggressive:
+  adapter_sequence: "AGATCGGAAGAGC"
+  cut_front: true
+  cut_tail: true
+  cut_window_size: 3
+  cut_mean_quality: 15
+  qualified_quality_phred: 15
+  min_length: 25
